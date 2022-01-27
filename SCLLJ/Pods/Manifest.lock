@@ -1,0 +1,34 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.2.0)
+  - MJExtension (~> 3.4.1)
+  - YTKKeyValueStore (~> 0.1.2)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - YTKKeyValueStore
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
+
+PODFILE CHECKSUM: 0a181b509fb4919147a8147fe52f6d3e2f6d2a5f
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SCLLJ/Pods-SCLLJ-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/YTKKeyValueStore/YTKKeyValueStore.framework
