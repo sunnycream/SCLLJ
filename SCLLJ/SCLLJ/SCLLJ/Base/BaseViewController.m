@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [SCUtil colorWithHexString:@"#3E71FF"];
+    self.view.backgroundColor = [SCUtil colorWithHexString:@"#FFFFFF"];
 }
 
 - (void)showTextOnly:(NSString *)text {

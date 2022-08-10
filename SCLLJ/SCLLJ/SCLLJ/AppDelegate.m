@@ -20,12 +20,7 @@
     
     BaseTabBarController *vc = [[BaseTabBarController alloc] init];
     self.window.rootViewController = vc;
-    
-//    self.window.rootViewController = [RootModel rootViewController];
-    
     [self.window makeKeyAndVisible];
-    
-//    [IQKeyboardManager sharedManager].enable = YES;
     
     return YES;
 }

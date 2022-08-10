@@ -93,10 +93,6 @@
 				4389938A27A27905000C1488 /* SplitMasonry.m */,
 				4389938D27A27905000C1488 /* MCPieChartView.h */,
 				4389938827A27904000C1488 /* MCPieChartView.m */,
-				4389938927A27904000C1488 /* MBProgressHUD+SCProgressHUD.h */,
-				4389938C27A27905000C1488 /* MBProgressHUD+SCProgressHUD.m */,
-				4389938B27A27905000C1488 /* UIBarButtonItem+SCBarButtonItem.h */,
-				4389938E27A27905000C1488 /* UIBarButtonItem+SCBarButtonItem.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -111,10 +107,6 @@
 		438992EA27A276D8000C1488 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				438992F427A276D8000C1488 /* CameraManage.h */,
-				438992EF27A276D8000C1488 /* CameraManage.m */,
-				438992EB27A276D8000C1488 /* HealthKitManage.h */,
-				438992F027A276D8000C1488 /* HealthKitManage.m */,
 				438992F327A276D8000C1488 /* BaseViewController.h */,
 				438992EC27A276D8000C1488 /* BaseViewController.m */,
 				438992ED27A276D8000C1488 /* BaseTabBarController.h */,
@@ -260,6 +252,8 @@
 				43975F2B27A26A77007EB47B /* AppDelegate.h */,
 				43975F2C27A26A77007EB47B /* AppDelegate.m */,
 				4389938427A27784000C1488 /* Prefix.pch */,
+				43A32CD628A34F6100C6AF1D /* CommonCategory */,
+				43A32CD528A34F2B00C6AF1D /* CommonManage */,
 				438992BE27A276D8000C1488 /* Util */,
 				438992EA27A276D8000C1488 /* Base */,
 				438992C327A276D8000C1488 /* ThirdParty */,
@@ -271,6 +265,28 @@
 				43975F3D27A26A79007EB47B /* main.m */,
 			);
 			path = SCLLJ;
+			sourceTree = "<group>";
+		};
+		43A32CD528A34F2B00C6AF1D /* CommonManage */ = {
+			isa = PBXGroup;
+			children = (
+				438992F427A276D8000C1488 /* CameraManage.h */,
+				438992EF27A276D8000C1488 /* CameraManage.m */,
+				438992EB27A276D8000C1488 /* HealthKitManage.h */,
+				438992F027A276D8000C1488 /* HealthKitManage.m */,
+			);
+			path = CommonManage;
+			sourceTree = "<group>";
+		};
+		43A32CD628A34F6100C6AF1D /* CommonCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4389938B27A27905000C1488 /* UIBarButtonItem+SCBarButtonItem.h */,
+				4389938E27A27905000C1488 /* UIBarButtonItem+SCBarButtonItem.m */,
+				4389938927A27904000C1488 /* MBProgressHUD+SCProgressHUD.h */,
+				4389938C27A27905000C1488 /* MBProgressHUD+SCProgressHUD.m */,
+			);
+			path = CommonCategory;
 			sourceTree = "<group>";
 		};
 		48CA78A3BBC96558E3BBEF9E /* Pods */ = {
@@ -574,6 +590,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,6 +620,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
